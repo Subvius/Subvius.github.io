@@ -10829,9 +10829,11 @@ Wb:function Wb(a){this.a=a},
 aA2(){return new A.w8(new A.a2q(),A.y(t.K,t.Qu))},
 a9I:function a9I(a,b){this.a=a
 this.b=b},
-wS:function wS(a,b,c){this.e=a
-this.p4=b
-this.a=c},
+wS:function wS(a,b,c,d){var _=this
+_.e=a
+_.CW=b
+_.p4=c
+_.a=d},
 a2q:function a2q(){},
 a2t:function a2t(){},
 AW:function AW(a){var _=this
@@ -46481,11 +46483,11 @@ if(l==null)l=o.ax.b
 k.a.toString
 s=b==null?B.bp:b
 return new A.yh(A.ajM(new A.ux(o,s,B.ab,B.ac,j,j),l,n),j)},
-Wy(a){var s,r=this,q=null,p=r.a
-p=p.e
+Wy(a){var s,r=this,q=null,p=r.a,o=p.e
+p=p.CW
 s=r.ga0P()
 r.a.toString
-return new A.zI(q,q,q,new A.adx(),q,q,q,q,q,p,B.Jn,q,q,B.GP,r.ga0W(),"",q,B.P_,B.eZ,q,s,q,q,B.lN,!1,!1,!1,!1,r.ga0w(),!1,q,q,q,new A.kk(r,t.bT))},
+return new A.zI(q,q,q,new A.adx(),q,q,q,q,q,o,B.Jn,q,q,B.GP,r.ga0W(),p,q,B.P_,B.eZ,q,s,q,q,B.lN,!1,!1,!1,!1,r.ga0w(),!1,q,q,q,new A.kk(r,t.bT))},
 L(a){var s,r=null,q=A.qm(!1,!1,this.Wy(a),r,r,r,r,!0,r,r,new A.ady(),r,r,r)
 this.a.toString
 s=this.d
@@ -75261,7 +75263,7 @@ ar(){return new A.Pn(B.k)}}
 A.Pn.prototype={
 L(a){return B.LS}}
 A.In.prototype={
-L(a){return new A.wS(new A.wa(null),!1,null)}}
+L(a){return new A.wS(new A.wa(null),"\u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b \u0410\u0439\u0441",!1,null)}}
 A.Io.prototype={
 L(b1){var s,r,q,p,o,n,m,l,k,j,i=this,h=null,g="\u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b \u0410\u0439\u0441",f="\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b",e=u.d,d="assets/images/img_1.png",c="assets/images/hero-base-desktop.svg",b="Acme Logo",a="assets/images/main.jpg",a0="\u041a\u043b\u0438\u043a\u0438\u0447 \u041a\u0430\u0440\u043e\u043b\u0438\u043d\u0430 \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u043e\u0432\u043d\u0430",a1=u.h,a2="t.me/Karolina_Kli",a3="\u0417\u0430\u043f\u0438\u0441\u0430\u0442\u044c\u0441\u044f",a4=A.c2(b1,h,t.w).w.a.a,a5=t.p,a6=A.an8(B.kr,0,A.dp(A.a([new A.aK(B.DK,A.as(g,h,A.ahO(B.Q,b1,B.i),h),h),A.dp(A.a([A.as("\u0413\u043b\u0430\u0432\u043d\u0430\u044f",h,A.am6(B.Q,b1),h),new A.aK(B.DR,A.as("\u041f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430",h,A.am6(B.Q,b1),h),h),A.as(f,h,A.am6(B.Q,b1),h)],a5),B.l,B.o,B.n)],a5),B.l,B.aU,B.n)),a7=a4>1150,a8=a7?A.dp(A.a([A.bS(h,A.bb(A.a([B.E4,A.em(A.as(e,h,A.cc(b1,B.Q),h)),$.Dx()],a5),B.au,B.o,B.n),h,h,332,B.d7,h,576),A.cn(A.oD(B.cQ,A.a([A.xH(h,A.e8(d,B.ad,h,224,224),h,h,112,h,114,h),A.LV(c,560,b,448)],a5),B.a_,B.c3),560,448)],a5),B.l,B.eW,B.n):A.dp(A.a([A.em(A.bb(A.a([A.bS(h,A.bb(A.a([B.E2,A.em(A.as(e,h,A.cc(b1,B.Q),B.A)),$.Dx()],a5),B.l,B.o,B.n),h,h,332,B.d7,h,576),A.bS(h,A.oD(B.cQ,A.a([A.xH(h,A.e8(d,B.ad,h,224,224),h,h,112,h,114,h),A.LV(c,560,b,448)],a5),B.a_,B.c3),h,h,560,B.kY,h,448)],a5),B.l,B.o,B.n))],a5),B.l,B.o,B.n),a9=A.as("\u041f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u041a\u0440\u0438\u0441\u0442\u0430\u043b\u043b \u0410\u0439\u0441",h,A.bD().$3$color$fontSize$fontWeight(B.i,32,B.v),h),b0=A.cc(b1,B.Q)
 b0=A.as(u.l,h,b0,a7?B.a2:B.A)
